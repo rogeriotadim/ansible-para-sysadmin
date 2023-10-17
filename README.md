@@ -54,30 +54,3 @@ ansible-galaxy collection publish --token <token> ./rogeriotadim-collection001-1
 
 ```
 
-* 089 - Ansible-doc:
-
-```
-ansible-doc -l
-ansible-doc awx.awx.user
-ansible-doc -l -t shell
-ansible-doc -l -t httpapi
-
-```
-
-* 090 - ansible-inventory:
-
-```
-ansible-inventory -i hosts --list
-ansible-inventory -i hosts --list -y
-ansible-inventory -i hosts --host ubuntu
-ansible-inventory -i hosts --graph
-
-```
-
-* 091 - ansible-vault:
-
-```
-
-```
-
-
